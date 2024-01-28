@@ -20,6 +20,6 @@ else if(mathrandom1===mathrandom2)
 }
 else
 {
-    document.querySelector("h1").innerHTML="🚩Player 2 wins!";
+    document.querySelector("h1").innerHTML="🚩Player 2 wins";
 }
 
