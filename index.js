@@ -1,5 +1,5 @@
 var mathrandom1 = Math.floor(Math.random() * 6) + 1;
-var changeImages = "images/" + "dice"+mathrandom1+".png";
+var changeImages = "dice"+mathrandom1+".png";
 
 var refresh1 = document.querySelectorAll("img")[0];
 
@@ -7,7 +7,7 @@ refresh1.setAttribute("src",changeImages);
 
 
 var mathrandom2 = Math.floor(Math.random() * 6 )+1;
-var changeImages2 = "images/" + "dice"+mathrandom2+".png";
+var changeImages2 = "dice"+mathrandom2+".png";
 var refresh2 = document.querySelectorAll("img")[1].setAttribute("src",changeImages2);
 
 if(mathrandom1>mathrandom2)
